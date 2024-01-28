@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.main {
+    margin: 0;
+    display: flex;
+    width: 100%;
+height: 100vh;
+background-color: hsl(271, 36%, 24%);
+}
+
+
+.firstcol{
+   background-color:  hsl(0, 0%, 100%);
+   position: relative;
+    height:100vh ;
+    width: 50vw;
+}
+.secondcol{
+   background-color: white;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    padding-left: 20px;
+    justify-content: center;
+}
+.simplebooking{
+    color: hsl(271, 36%, 24%) ;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.lorem{
+    font-size: 20px;
+    color:hsl(270, 7%, 64%) ;
+    padding-right: 20vw;
+}
+.subone{
+    background-image:linear-gradient(to bottom, hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%));
+    position: absolute;
+    left: -20px;
+    width: 28vw;
+    height: 90vh;
+    border-bottom-left-radius: 195px;
+    border-bottom-right-radius: 230px;
+    
+}
+.subtwo{
+    background-color: white;
+    border-radius :25px;
+    height: 68vh;
+    width: 230px;
+    margin-top: 130px;
+    margin-left: 350px;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);
+    -webkit-box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);
+    -moz-box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);;
+    border: 0.4px solid black;
+}
+.minisubtwo{
+    background-color: hsl(270, 20%, 96%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 65vh;
+    width: 210px;
+    border-radius :25px;
+}
+.headerapp{
+    width: 210px;
+    border-top-left-radius :25px;
+    border-top-right-radius :25px;
+    border-bottom-right-radius :15px;
+    border-bottom-left-radius :15px;
+    height: 10vh;
+    background-image:linear-gradient(to left, hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%));
+    display: flex;
+    flex-direction: column;
+}
+.div{
+    width: 100px;
+    height: 3vh;
+    background-color: white;
+    margin-left: 55px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+.headerappmini{
+    display: flex;
+    flex-direction: row;  
+}
+.samuelgreenmini{
+    margin-left: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 75vw;
+    height: 50px;
+}
+.textone{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.texttwo{
+    color: white;
+    font-size: 7px;
+}
+.circlepic{
+    margin-left: 20px;
+   margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url('avatar.jpg');
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 200px;
+    padding-left: 5.5px;
+}
+.firstchat{
+    background-color:hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: 300;
+}
+.secondchat{
+    background-color:hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: 300;
+}
+.thirdchat{
+  height: 35px;
+  /* width: 200px; */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+}
+.firstpic{
+    border-radius: 8px;
+    width: 40px;
+    
+}
+.secondpic{
+    border-radius: 8px;
+    margin-left: 3px;
+    width: 40px;
+}
+.thirdpic{
+    border-radius: 8px;
+    margin-left: 3px;
+    width: 40px;
+}
+.firstpicimg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 40px;
+    height: 35px;
+}
+.fourthchat{
+    background-color:white;
+    color: hsl(276, 55%, 52%);
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: 300;
+    margin-left: 75px;
+}
+.fifthchat{
+    background-color:white;
+    color: hsl(276, 55%, 52%);
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: 300;
+    margin-left: 75px;
+}
+.sixthchat{
+    background-color:hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    font-size: 9px;
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: 300;
+}
+.seventhchat{
+    background-image:linear-gradient(to left, hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%));
+    color: white;
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 8px;
+    padding-left: 3px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+}
+.dollarone{
+margin-left: 30px;
+font-weight: 800;
+font-size: 17px;
+}
+.eighthchat{
+    background-image:linear-gradient(to left, hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%));
+    color: white;
+    font-size: 9px;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-top: 8px;
+    padding-left: 3px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+}
+.dollartwo{
+    margin-left: 32px;
+    font-weight: 800;
+    font-size: 17px;
+    }
+.ninthchat{
+    background-color:white;
+    color: hsl(206, 6%, 79%);
+    font-size: 9px;
+    width: 165px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 3px;
+    font-weight: 300;
+    margin-left: 5px;
+   padding-left: 30px;
+   display: flex;
+   flex-direction: row;
+}
+.button{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color:  hsl(271, 36%, 24%);
+    margin-left: 70px;
+  
+}
